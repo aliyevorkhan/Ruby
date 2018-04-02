@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  demosite_id: 1
+  name: MyString
+  surname: MyString
+  age: 1
+  school: MyText
+  adress: MyText
+
+two:
+  demosite_id: 1
+  name: MyString
+  surname: MyString
+  age: 1
+  school: MyText
+  adress: MyText

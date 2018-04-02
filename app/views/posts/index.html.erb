@@ -1,0 +1,12 @@
+<h1>Registers</h1>>
+<% @posts.each do|post| %>
+  <h2><%= link_to post.name, post %></h2>
+  <p>
+<p><%= time_ago_in_words post.created_at %> ago</p>
+
+  </p>
+  <hr/>
+<% end %>
+<h3>
+<%= link_to "Add new form", new_post_path %>
+</h3>
